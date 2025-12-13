@@ -37,7 +37,7 @@ function renderBooks(booksToRender) {
         card.className = 'book-card';
         card.innerHTML = `
     <div class="book-cover">
-        <img src="/imazhe/${book.icon}" alt="${book.title} kopertina" />
+        <img src="./imazhe/${book.icon}" alt="${book.title} kopertina" />
         
     </div>
     <div class="book-title">${book.title}</div>
@@ -82,5 +82,6 @@ document.getElementById('searchInput').addEventListener('keypress', function (e)
         searchBooks();
     }
 });
+
 
 renderBooks(books);
