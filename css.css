@@ -244,4 +244,29 @@ h1 {
 
 .no-results {
     color: white;
+
+}
+
+
+
+.d-none__mob {
+    display: none;
+}
+
+.d-none__des {
+    display: block;
+}
+
+@media (max-width: 400px) {
+    .search-bar input {
+        max-width: 70%;
+    }
+
+    .d-none__mob {
+        display: block;
+    }
+
+    .d-none__des {
+        display: none;
+    }
 }
