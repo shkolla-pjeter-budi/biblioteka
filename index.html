@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bibilioteka | Gjimnazi Pjeter Budi | Burrel</title>
+    
+    <link rel="stylesheet" href="/css.css">
+
+</head>
+<body>
+    <div class="container">
+        <header id="header-logo">
+            <img src="/imazhe/logo.jpg" alt="Gjimnazi Pjeter Budi/logo">
+        </header>
+
+        <div class="intro-section">
+            <h2>Gjimnazi "Pjetër Budi"</h2>
+            <p class="welcome-text">
+                Gjimnazi “Pjetër Budi” Burrel është një institucion arsimor me traditë të gjatë dhe rol të rëndësishëm në formimin e brezave të rinj në rajonin e Matit. Për dekada me radhë, shkolla ka qenë një qendër e dijes, kulturës dhe edukimit qytetar, duke përgatitur nxënës të aftë, ambiciozë dhe të përgjegjshëm për të ardhmen e tyre akademike dhe profesionale. Mësimdhënia mbështetet në standarde bashkëkohore, në përkushtimin e stafit pedagogjik dhe në krijimin e një klime të shëndetshme bashkëpunimi, ku çdo nxënës inkurajohet të zhvillojë potencialin e tij.
+            </p>
+            <p class="welcome-text">
+                Në kuadër të kësaj tradite arsimore, biblioteka e gjimnazit zë një vend të veçantë. Ajo është jo vetëm një hapësirë për studim dhe qetësi, por një arkiv i vërtetë kulturor që pasuron përvojën shkollore të çdo nxënësi. Fondi i librave përfshin veprat më të rëndësishme të letërsisë shqiptare, botime të autorëve të huaj klasikë dhe bashkëkohorë, koleksione poetike, novela, romane, studime historike, tekste analitike, botime enciklopedike dhe shumë materiale të tjera ndihmëse. Ky diversitet i jep nxënësve mundësinë të eksplorojnë fusha të ndryshme të dijes, të zgjerojnë horizontin e tyre intelektual dhe të zhvillojnë aftësi kërkimore.
+            </p>
+        </div>
+
+        <div class="search-bar">
+            <input type="text" id="searchInput" placeholder="Kërko për libra, autorë ose kategori...">
+            <button onclick="searchBooks()">Kërko</button>
+        </div>
+
+        <div class="filters">
+            <button class="filter-btn active" onclick="filterBooks('all')">Të gjitha</button>
+            <button class="filter-btn" onclick="filterBooks('poezi')">Poezi</button>
+            <button class="filter-btn" onclick="filterBooks('poezi të zgjedhura')">Poezi të zgjedhura</button>
+            <button class="filter-btn" onclick="filterBooks('antologji')">Antologji</button>
+            <button class="filter-btn" onclick="filterBooks('roman')">Roman</button>
+            <button class="filter-btn" onclick="filterBooks('novela / tregime')">Novela / Tregime</button>
+            <button class="filter-btn" onclick="filterBooks('drama')">Drama</button>
+            <button class="filter-btn" onclick="filterBooks('histori')">Histori</button>
+            <button class="filter-btn" onclick="filterBooks('epikë / klasikë')">Epikë / Klasikë</button>
+            <button class="filter-btn" onclick="filterBooks('studim / ese')">Studim / Ese</button>
+            <button class="filter-btn" onclick="filterBooks('publicistikë')">Publicistikë</button>
+            <button class="filter-btn" onclick="filterBooks('enciklopedi')">Enciklopedi</button>
+            <button class="filter-btn" onclick="filterBooks('revistë')">Revistë</button>
+            <button class="filter-btn" onclick="filterBooks('biografi')">Biografi</button>
+        </div>
+
+
+        <div class="books-grid" id="booksGrid"></div>
+    </div>
+
+    <script src="./books.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
