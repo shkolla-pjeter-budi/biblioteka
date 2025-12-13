@@ -1,7 +1,7 @@
 const books = [
     { title: "Bageti e Bujqesi. Lulet e Veres", author: "Naim Frasheri", category: "poezi", quantity: 33, price: 150, icon: "bagetia_e_bujqesia_lulet_e_veres.jpg" },
     { title: "Visare te letersise Shqiptare 3", author: "Naim Frasheri", category: "antologji", quantity: 1, price: 800, icon: "visare_te_letersise_shqiptare.jpeg" },
-    { title: "Visare te letersise Shqiptare 2,4,5,6", author: "Naim Frasheri", category: "antologji", quantity: 4, price: 600, icon: "📖" },
+    { title: "Visare te letersise Shqiptare 2,4,5,6", author: "Naim Frasheri", category: "antologji", quantity: 4, price: 600, icon: "lulet_e_molles.jpeg" },
     { title: "Vepra 2-20", author: "Ismail Kadare", category: "roman", quantity: 19, price: 700, icon: "vepra_2_20.jpeg" },
     { title: "Pallati i enderrave", author: "Ismail Kadare", category: "roman", quantity: 1, price: 700, icon: "pallati_i_enderrave.jpeg" },
     { title: "Lulet e veres", author: "Naim Frasheri", category: "poezi", quantity: 2, price: 400, icon: "lulet_e_veres.jpeg" },
@@ -231,4 +231,5 @@ const books = [
     { title: "The Haymedow", author: "Gary Paulsen", category: "roman", quantity: 1, price: 599, icon: "The_Haymeadow.jpg" },
     { title: "Il giardino dei Finizi-Contini", author: "Giorgio Bossani", category: "roman", quantity: 1, price: 680, icon: "Il_giardino_dei_Finizi_Contini.jpg" }
 ];
+
 
