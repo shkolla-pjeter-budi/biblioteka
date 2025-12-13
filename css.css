@@ -259,7 +259,8 @@ h1 {
 
 @media (max-width: 400px) {
     .search-bar input {
-        max-width: 70%;
+        max-width: 74%;
+        padding-left: 10px;
     }
 
     .d-none__mob {
@@ -269,4 +270,15 @@ h1 {
     .d-none__des {
         display: none;
     }
+
+    .search-bar button {
+        padding: 12px 16px;
+    }
+
+    .search-bar button svg {
+        width: 32px;
+        height: 32px;
+        fill: #fff;
+    }
 }
+
