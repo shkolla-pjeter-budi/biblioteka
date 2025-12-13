@@ -6,6 +6,7 @@
     <title>Bibilioteka | Gjimnazi Pjeter Budi | Burrel</title>
     
     <link rel="stylesheet" href="./css.css">
+    <script src="https://kit.fontawesome.com/bf2f99064c.js" crossorigin="anonymous"></script>
 
 </head>
 <body>
@@ -26,7 +27,10 @@
 
         <div class="search-bar">
             <input type="text" id="searchInput" placeholder="Kërko për libra, autorë ose kategori...">
-            <button onclick="searchBooks()">Kërko</button>
+            <button onclick="searchBooks()">
+                <span class="d-none__mob">Kërko</span>
+                <span class="d-none__desk"><i class="fa-solid fa-magnifying-glass"></i></span>
+            </button>
         </div>
 
         <div class="filters">
@@ -53,5 +57,4 @@
     <script src="./books.js"></script>
     <script src="./script.js"></script>
 </body>
-
 </html>
