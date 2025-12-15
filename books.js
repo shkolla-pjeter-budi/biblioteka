@@ -74,7 +74,7 @@ const books = [
     { title: "Xhorxh Gordon Bajron", author: "Corld Klaroldi", category: "biografi", quantity: 2, price: 800, icon: "📖" },
     { title: "Politika dhe demokracia", author: "Kval-Mellbye-Tranoy", category: "studim / ese", quantity: 3, price: null, icon: "politika_dhe_demokracia.jpeg" },
     { title: "E bardhë, e brishtë, si kristal", author: "Thanas Jorgji", category: "roman", quantity: 15, price: 600, icon: "e_bardhe_e_brishte.jpeg" },
-    { title: "Poezi të zgjedhura", author: "33 poete franceze", category: "antologji", quantity: 27, price: 400, icon: "poezi_te_zgjedhura_4.jpeg" },
+    { title: "Poezi të zgjedhura", author: "33 poete franceze", category: "antologji", quantity: 27, price: 400, icon: "33_poete_franceze.jpeg" },
     { title: "Dramat në prozë", author: "Fidrih Shiler", category: "drama", quantity: 25, price: 540, icon: "dramat_ne_proze.jpeg" },
     { title: "Tregtari i Venedikut", author: "Shekspir", category: "drama", quantity: 32, price: 440, icon: "tregtari_i_venedikut.jpg" },
     { title: "Lulet e mollës", author: "John Galsëorthy", category: "roman", quantity: 5, price: 300, icon: "lulet_e_molles.jpeg" },
@@ -230,6 +230,7 @@ const books = [
     { title: "The Haymedow", author: "Gary Paulsen", category: "roman", quantity: 1, price: 599, icon: "The_Haymeadow.jpg" },
     { title: "Il giardino dei Finizi-Contini", author: "Giorgio Bossani", category: "roman", quantity: 1, price: 680, icon: "Il_giardino_dei_Finizi_Contini.jpg" }
 ];
+
 
 
 
