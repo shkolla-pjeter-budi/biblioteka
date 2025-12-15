@@ -53,7 +53,7 @@ const books = [
     { title: "Oliver Tuist", author: "Çarls Dikens", category: "roman", quantity: 28, price: 590, icon: "oliver_tuist.jpg" },
     { title: "Vetëm një herë në jetë", author: "Daniel Stiell", category: "roman", quantity: 20, price: 500, icon: "vetem_nje_here_ne_jete.jpeg" },
     { title: "Diplomati", author: "Harilla Goga", category: "studim / ese", quantity: 2, price: 400, icon: "diplomati.jpeg" },
-    { title: "Shanci I fundit në fillim të shekullit", author: "Bedri Islami", category: "publicistikë", quantity: 13, price: 500, icon: "shansi_i_fundit_ne_fillim_te_shekullit.jpeg" },
+    { title: "Shansi I fundit në fillim të shekullit", author: "Bedri Islami", category: "publicistikë", quantity: 13, price: 500, icon: "shansi_i_fundit_ne_fillim_te_shekullit.jpeg" },
     { title: "Mallkimi I shkronjave shqipe", author: "Petro N. Luarasi", category: "studim / ese", quantity: 28, price: 380, icon: "mallkimi_i_shkronjave_shqipe.jpeg" },
     { title: "Gjenerali në labirintin e vet", author: "Gabriel Marquez", category: "roman", quantity: 26, price: 600, icon: "gjenerali_ne_labirintin_e_tij.jpeg" },
     { title: "Beteja", author: "Patrick Ramboul", category: "roman", quantity: 29, price: 760, icon: "beteja.jpeg" },
@@ -230,6 +230,7 @@ const books = [
     { title: "The Haymedow", author: "Gary Paulsen", category: "roman", quantity: 1, price: 599, icon: "The_Haymeadow.jpg" },
     { title: "Il giardino dei Finizi-Contini", author: "Giorgio Bossani", category: "roman", quantity: 1, price: 680, icon: "Il_giardino_dei_Finizi_Contini.jpg" }
 ];
+
 
 
 
