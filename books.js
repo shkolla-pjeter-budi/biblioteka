@@ -10,7 +10,7 @@ const books = [
     { title: "Poezi të zgjedhura", author: "Naim Frashëri", category: "poezi të zgjedhura", quantity: 3, price: 1.50, icon: "poezi_te_zgjedhura_1.jpeg" },
     { title: "Historia e Skënderbeut", author: "Naim Frashëri", category: "epikë / klasikë", quantity: 19, price: 350, icon: "histori_e_skenderbeut.jpg" },
     { title: "Tradhëtia", author: "Kapllan Resuli", category: "roman", quantity: 28, price: 520, icon: "tradhetia_.jpg" },
-    { title: "Gjiri i Virgjëreshës", author: "Arben Duka", category: "poezi", quantity: 20, price: 600, icon: "gjiri_i_virgjereshes.jpg" },
+    { title: "Gjiri i virgjëreshës", author: "Arben Duka", category: "poezi", quantity: 20, price: 600, icon: "gjiri_i_virgjereshes.jpg" },
     { title: "Poezi të zgjedhura", author: "Asdreni", category: "poezi të zgjedhura", quantity: 30, price: 420, icon: "poezi_te_zgjedhura_2.jpeg" },
     { title: "Juvenilja dhe vjersha të tjera", author: "Ndre Mjeda", category: "poezi", quantity: 4, price: 320, icon: "juvenilia_dhe_vjersha_te_tjera.jpeg" },
     { title: "Tregime të moçme shqiptare", author: "Mitrush Kuteli", category: "novela / tregime", quantity: 3, price: 450, icon: "tregime_te_mocme_shqipate.jpeg" },
@@ -20,7 +20,7 @@ const books = [
     { title: "Album", author: "Fan Noli", category: "poezi", quantity: 29, price: 400, icon: "album.jpeg" },
     { title: "Vargje të lira", author: "Migjeni", category: "poezi", quantity: 16, price: 200, icon: "vargje_te_lira.jpeg" },
     { title: "Guna e Zezë", author: "Gaqo Bushaka", category: "roman", quantity: 28, price: 300, icon: "guna_e_zeze.jpeg" },
-    { title: "Shtjellat e Bardha", author: "Ramadan Pasmaciu", category: "poezi", quantity: 12, price: 300, icon: "shtjellat_e_bardha.jpeg" },
+    { title: "Shtjellat e bardha", author: "Ramadan Pasmaciu", category: "poezi", quantity: 12, price: 300, icon: "shtjellat_e_bardha.jpeg" },
     { title: "Poezi të zgjedhura", author: "Ali Asllani", category: "poezi të zgjedhura", quantity: 29, price: 460, icon: "poezi_te_zgjedhura_3.jpg" },
     { title: "Novelat e qytetit të Veriut", author: "Migjeni", category: "novela / tregime", quantity: 25, price: 220, icon: "novelat_e_qytetit_te_veriut.jpeg" },
     { title: "Melodia e valës së kaltër", author: "Ermal Lala", category: "poezi", quantity: 2, price: 500, icon: "melodia_e_vales_se_kalter.jpg" },
@@ -230,6 +230,7 @@ const books = [
     { title: "The Haymedow", author: "Gary Paulsen", category: "roman", quantity: 1, price: 599, icon: "The_Haymeadow.jpg" },
     { title: "Il giardino dei Finizi-Contini", author: "Giorgio Bossani", category: "roman", quantity: 1, price: 680, icon: "Il_giardino_dei_Finizi_Contini.jpg" }
 ];
+
 
 
 
