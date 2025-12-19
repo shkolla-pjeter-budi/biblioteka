@@ -228,8 +228,44 @@ const books = [
     { title: "Fiabe italiane .Volume secondo", author: "Italo Calvino", category: "novela / tregime", quantity: 1, price: null, icon: "I.Calvino-Fiabe-italiane-Vol.2.jpg" },
     { title: "Fiabe italiane. Volume terzo", author: "Italo Calvino", category: "novela / tregime", quantity: 1, price: null, icon: "I.Calvino-Fiabe-italiane-Vol.3.jpg" },
     { title: "The Haymedow", author: "Gary Paulsen", category: "roman", quantity: 1, price: 599, icon: "The_Haymeadow.jpg" },
-    { title: "Il giardino dei Finizi-Contini", author: "Giorgio Bossani", category: "roman", quantity: 1, price: 680, icon: "Il_giardino_dei_Finizi_Contini.jpg" }
+    { title: "Il giardino dei Finizi-Contini", author: "Giorgio Bossani", category: "roman", quantity: 1, price: 680, icon: "Il_giardino_dei_Finizi_Contini.jpg" },
+    { title: "Mimozat e kujtimeve", author: "Basir Bushkashi", category: "poezi", quantity: 3, price: 800, icon: "📖" },
+    { title: "Panoramë Matjane", author: "Hamdi Hysuka", category: "publicistikë", quantity: 5, price: 300, icon: "📖" },
+    { title: "Qiejt e brengave", author: "Basir Bushkashi", category: "poezi", quantity: 5, price: 700, icon: "qiejt_e_brengave.jpg" },
+    { title: "Zjarre dhe fllad", author: "Basir Bushkashi", category: "poezi", quantity: 4, price: 700, icon: "zjarr_dhe_fllad.jpg" },
+    { title: "Trashëgimia iliro-arbërore", author: "Dilaver Kurti", category: "studime", quantity: 5, price: 520, icon: "trashegimi_iliro_arberore.jpeg" },
+    { title: "Përtej është qielli", author: "Basir Bushkashi", category: "poezi", quantity: 1, price: 350, icon: "📖" },
+    { title: "Liset e fjalës", author: "Basir Bushkashi", category: "poezi", quantity: 4, price: 500, icon: "📖" },
+    { title: "Kurora e pikëllimit", author: "Basir Bushkashi", category: "poezi", quantity: 1, price: 500, icon: "📖" },
+    { title: "Stinë rinie", author: "Basir Bushkashi", category: "poezi", quantity: 6, price: 500, icon: "📖" },
+    { title: "Shkulmet e bardha", author: "Basir Bushkashi", category: "poezi", quantity: 4, price: 600, icon: "📖" },
+    { title: "Shpirti i drurëve", author: "Basir Bushkashi", category: "poezi", quantity: 5, price: 500, icon: "shpirti_i_drureve.jpeg" },
+    { title: "Antologji e Poezisë Matjane", author: "", category: "antologji", quantity: 2, price: 1000, icon: "antologji_e_poezise_matjane.jpg" },
+
+    { title: "Poetika e Budit", author: "Behar Gjoka", category: "studim / ese", quantity: 2, price: 600, icon: "poetika_e_budid.jpeg" },
+    { title: "Orët e ringjalljes", author: "Behar Gjoka", category: "studim / ese", quantity: 3, price: 500, icon: "📖" },
+    { title: "Migjeni në pakohësi", author: "Behar Gjoka", category: "studim / ese", quantity: 3, price: 1200, icon: "migjeni_ne_pakohesi.jfif" },
+    { title: "Kadare i rilexuar", author: "Behar Gjoka", category: "studim / ese", quantity: 2, price: 800, icon: "kadare_i_rilexuar.jfif" },
+    { title: "Kuteli dhe letrarja", author: "Behar Gjoka", category: "studim / ese", quantity: 3, price: 900, icon: "📖" },
+
+    { title: "Shkëlqimi dhe rënia e shokut Zylo", author: "Dritëro Agolli", category: "roman", quantity: 1, price: null, icon: "shkelqimi_dhe_renia_e_shokut_zylo.jpg" },
+    { title: "Melodi zemre", author: "Ervisa Ruka", category: "poezi", quantity: 1, price: 300, icon: "📖" },
+    { title: "Një pasqyrë jete njerëzore", author: "Jeronim De Rada", category: "poezi", quantity: 2, price: 900, icon: "nje_pasqyre_jete_njerezore.jpg" },
+    { title: "Pëllumbesha e qiellit tim", author: "Shyqyri Koci", category: "poezi", quantity: 1, price: 250, icon: "📖" },
+
+    { title: "Gjeniu (botim i plotë)", author: "Teodor Drazjer", category: "biografi", quantity: 1, price: null, icon: "gjeniu_teodor_drajzer.jpg" },
+    { title: "Princi i vogël", author: "Antoine de Saint-Exupéry", category: "roman", quantity: 1, price: 700, icon: "princi_i_vogel.jpg" },
+    { title: "Lulet e së keqes", author: "Sharl Bodler", category: "poezi", quantity: 3, price: 900, icon: "lulet_e_se_keqes.jpg" },
+    { title: "Gjahtarët e gjirafave", author: "Majn Rid", category: "roman aventurë", quantity: 8, price: 400, icon: "📖" },
+
+    { title: "L’anello di Clarisse", author: "Claudio Magris", category: "roman", quantity: 1, price: 900, icon: "Lanello_di_Clarisse.jpg" },
+    { title: "La luna e i falò", author: "Cesare Pavese", category: "roman", quantity: 1, price: 800, icon: "La_luna_e_i_falò.jpg" },
+    { title: "La casa in collina", author: "Cesare Pavese", category: "roman", quantity: 1, price: 775, icon: "La_casa_in_collina.jpg" },
+    { title: "Lessico famigliare", author: "Natalia Ginzburg", category: "roman", quantity: 1, price: 900, icon: "Lessico_famigliare.jpg" },
+    { title: "I Malavoglia", author: "Giovanni Verga", category: "roman", quantity: 1, price: 800, icon: "I_Malavoglia.jpg" }
+
 ];
+
 
 
 
