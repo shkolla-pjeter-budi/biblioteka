@@ -284,7 +284,8 @@ const books = [
     { title: "Kimia 11", author: "", category: "studim / ese", quantity: 5, price: 280, icon: "📘" },
     { title: "Kimia 11", author: "", category: "studim / ese", quantity: 2, price: 260, icon: "📘" },
     { title: "Kimia 2", author: "", category: "studim / ese", quantity: 1, price: 400, icon: "📘" },
-
+    { title: "Kimia 2 – ushtrime të zgjidhura", author: "", category: "studim / ese", quantity: 1, price: 400, icon: "📘" },
+    
     { title: "Fizika 11", author: "", category: "studim / ese", quantity: 1, price: 280, icon: "📘" },
     { title: "Fizika 11", author: "", category: "studim / ese", quantity: 3, price: 302, icon: "📘" },
     { title: "Fizika 12", author: "", category: "studim / ese", quantity: 1, price: 284, icon: "📘" },
@@ -298,6 +299,8 @@ const books = [
     { title: "Historia 11", author: "", category: "studim / ese", quantity: 2, price: 356, icon: "📘" },
     { title: "Historia e shqiptarëve 12", author: "", category: "studim / ese", quantity: 1, price: 929, icon: "📘" },
     { title: "Historia e popullit shqiptar 12", author: "", category: "studim / ese", quantity: 1, price: 290, icon: "📘" },
+    { title: "Historia e qytetërimeve në antikitet dhe mesjetë", author: "", category: "studim / ese", quantity: 1, price: 165, icon: "📘" },
+    { title: "Historia e qytetërimit (PEGI)", author: "", category: "studim / ese", quantity: 1, price: 265, icon: "📘" },
 
     { title: "Qytetaria 10", author: "", category: "studim / ese", quantity: 1, price: 346, icon: "📘" },
     { title: "Qytetaria 10", author: "", category: "studim / ese", quantity: 2, price: 275, icon: "📘" },
@@ -309,10 +312,96 @@ const books = [
     { title: "English for You 2", author: "", category: "studim / ese", quantity: 1, price: 350, icon: "📘" },
 
     { title: "Atlas i zoologjisë", author: "", category: "enciklopedi", quantity: 1, price: null, icon: "📘" },
+    { title: "Atlas themelor i ekologjisë", author: "", category: "enciklopedi", quantity: 2, price: null, icon: "📘" },
+    { title: "Atlas themelor i filozofisë", author: "", category: "enciklopedi", quantity: 2, price: null, icon: "📘" },
+    { title: "Atlas themelor i botanikës", author: "", category: "enciklopedi", quantity: 1, price: null, icon: "📘" },
+    { title: "Atlas i historisë së botës", author: "", category: "enciklopedi", quantity: 2, price: null, icon: "📘" },
     { title: "Atlas i gjeografisë fizike", author: "", category: "enciklopedi", quantity: 1, price: null, icon: "📘" },
     { title: "Atlas themelor i historisë së botës", author: "", category: "enciklopedi", quantity: 2, price: null, icon: "📘" },
-    { title: "Libër mësuesi – Sociologjia", author: "", category: "studim / ese", quantity: 1, price: 300, icon: "📘" }
+    { title: "Libër mësuesi – Sociologjia", author: "", category: "studim / ese", quantity: 1, price: 300, icon: "📘" },
+    { title: "Matematika 1", author: "", category: "studim / ese", quantity: 2, price: 350, icon: "📘" },
+
+    { title: "Ushtrime & problema të fizikës", author: "", category: "studim / ese", quantity: 10, price: "360;400", icon: "📘" },
+    { title: "Tell Me More – Education Online", author: "", category: "studim / ese", quantity: 9, price: 2900, icon: "📘" },
+    { title: "Poezi dhe poemë", author: "", category: "poezi", quantity: 1, price: 800, icon: "📖" },
+    { title: "Antologji e mendimit shqiptar", author: "", category: "studim / ese", quantity: 2, price: 1500, icon: "📘" },
+    { title: "Brenga e Ballkanit", author: "", category: "studim / ese", quantity: 1, price: 1000, icon: "📖" },
+    { title: "Enciklopedi e mendimit shqiptar", author: "", category: "enciklopedi", quantity: 6, price: 1500, icon: "📘" },
+    { title: "Tell Me More – Education Online Kl. VI", author: "", category: "studim / ese", quantity: 1, price: 2900, icon: "📘" },
+
+    { title: "Tell Me More – Education Online Kl. VII", author: "", category: "studim / ese", quantity: 1, price: 2900, icon: "📘" },
+    { title: "Tell Me More – Education Online Kl. VIII", author: "", category: "studim / ese", quantity: 1, price: 2900, icon: "📘" },
+    { title: "Tell Me More – Education Online Kl. IX", author: "", category: "studim / ese", quantity: 1, price: 2900, icon: "📘" },
+    { title: "Tell Me More – Education Online Kl. XII", author: "", category: "studim / ese", quantity: 25, price: 2900, icon: "📘" },
+    { title: "Financat personale në duart e tua", author: "", category: "studim / ese", quantity: 60, price: null, icon: "📘" },
+    { title: "Historia e qytetërimit botëror", author: "", category: "studim / ese", quantity: 1, price: 200, icon: "📘" },
+    { title: "Gjuha frënge 2", author: "", category: "studim / ese", quantity: 1, price: null, icon: "📘" },
+
+    { title: "Letërsia 12", author: "", category: "studim / ese", quantity: 1, price: 134, icon: "📘" },
+    { title: "Letërsia 11", author: "", category: "studim / ese", quantity: 1, price: 530, icon: "📘" },
+    { title: "Letërsia me zgjedhje 12", author: "", category: "studim / ese", quantity: 1, price: 733, icon: "📘" },
+
+    { title: "Teatër 10", author: "", category: "studim / ese", quantity: 1, price: 220, icon: "📖" },
+    { title: "Teatër 11", author: "", category: "studim / ese", quantity: 1, price: "125 L / 1 €", icon: "📖" },
+
+    { title: "Mësimi me klasa të bashkuara", author: "", category: "studim / ese", quantity: 1, price: null, icon: "📘" },
+    { title: "Manual trajnimi", author: "", category: "studim / ese", quantity: 1, price: null, icon: "📘" },
+    { title: "Konceptimi dhe organizimi i punës me klasat kolektive", author: "", category: "studim / ese", quantity: 1, price: null, icon: "📘" },
+    { title: "Etika e biznesit", author: "", category: "studim / ese", quantity: 1, price: null, icon: "📘" },
+    { title: "Libër mësuesi – Qytetari 11", author: "", category: "studim / ese", quantity: 1, price: 200, icon: "📘" },
+    { title: "Teknologjia 10", author: "", category: "studim / ese", quantity: 1, price: null, icon: "📘" },
+    { title: "Udhëzues për mësuesit e rinj të shkollave", author: "", category: "studim / ese", quantity: 1, price: 1000, icon: "📘" },
+    { title: "Ushtrime e problema fizike", author: "", category: "studim / ese", quantity: 1, price: 400, icon: "📘" },
+    { title: "Qytetari", author: "", category: "studim / ese", quantity: 1, price: 330, icon: "📘" },
+    { title: "Gjeografi 12", author: "", category: "studim / ese", quantity: 1, price: 300, icon: "📘" },
+    { title: "Fizika 11", author: "", category: "studim / ese", quantity: 1, price: 280, icon: "📘" },
+    { title: "Artet", author: "", category: "studim / ese", quantity: 1, price: 440, icon: "📘" },
+
+    { title: "Ekonomi e zbatuar – libër ushtrimesh", author: "", category: "studim / ese", quantity: 1, price: null, icon: "📘" },
+    { title: "Guide për maturën shtetërore", author: "", category: "studim / ese", quantity: 1, price: null, icon: "📘" },
+    { title: "Raporti vjetor statistikor i arsimit", author: "", category: "studim / ese", quantity: 1, price: null, icon: "📘" },
+    { title: "Entropia", author: "", category: "studim / ese", quantity: 1, price: 700, icon: "📘" },
+    { title: "Gjeografia 11", author: "", category: "studim / ese", quantity: 1, price: 572, icon: "📘" },
+    { title: "Trashëgimia jonë kulturore 10", author: "", category: "studim / ese", quantity: 2, price: 254, icon: "📘" },
+    
+    { title: "Blockbuster", author: "", category: "studim / ese", quantity: 2, price: null, icon: "📘" },
+    { title: "New Framework 3", author: "", category: "studim / ese", quantity: 2, price: null, icon: "📘" },
+    { title: "Traveller B2", author: "", category: "studim / ese", quantity: 2, price: null, icon: "📘" },
+    { title: "Traveller Pre-Intermediate", author: "", category: "studim / ese", quantity: 2, price: null, icon: "📘" },
+    { title: "Traveller Intermediate B1", author: "", category: "studim / ese", quantity: 2, price: null, icon: "📘" },
+    { title: "Prospects", author: "", category: "studim / ese", quantity: 2, price: null, icon: "📘" },
+    { title: "Allegro", author: "", category: "studim / ese", quantity: 2, price: null, icon: "📘" },
+
+    { title: "La lingua pensata", author: "", category: "studim / ese", quantity: 1, price: "16.60 €", icon: "📘" },
+    { title: "Le parole, le regole, i testi C", author: "", category: "studim / ese", quantity: 1, price: "28.85 €", icon: "📘" },
+    { title: "Le parole, le regole, i testi A", author: "", category: "studim / ese", quantity: 1, price: null, icon: "📘" },
+
+    { title: "Francais", author: "", category: "studim / ese", quantity: 1, price: null, icon: "📘" },
+    { title: "Francais 4", author: "", category: "studim / ese", quantity: 1, price: 544, icon: "📘" },
+    { title: "Francais 4 – cahier d’exercices", author: "", category: "studim / ese", quantity: 1, price: 485, icon: "📘" },
+    { title: "Le francais en 5e", author: "", category: "studim / ese", quantity: 3, price: null, icon: "📘" },
+
+    { title: "National Geographic (tituj të ndryshëm)", author: "", category: "revistë", quantity: 1, price: null, icon: "📘" },
+    { title: "Mouths and Noses", author: "", category: "studim / ese", quantity: 1, price: null, icon: "📘" },
+    { title: "George at the Zoo", author: "", category: "studim / ese", quantity: 1, price: null, icon: "📘" },
+    { title: "Whistles and Dreams", author: "", category: "studim / ese", quantity: 1, price: null, icon: "📘" },
+
+    { title: "Physics", author: "", category: "studim / ese", quantity: 1, price: null, icon: "📘" },
+    { title: "Biofizika", author: "", category: "studim / ese", quantity: 1, price: 1200, icon: "📘" },
+
+    { title: "Probleme psikopedagogjike e sociale", author: "", category: "studim / ese", quantity: 1, price: null, icon: "📘" },
+    { title: "Braktisja e fshehtë (objektiva minimale)", author: "", category: "studim / ese", quantity: 3, price: null, icon: "📘" },
+    
+    { title: "Arsimi i lartë në Shqipëri 2011", author: "", category: "studim / ese", quantity: 2, price: null, icon: "📘" },
+    { title: "Raporte matura shtetërore 2007", author: "", category: "studim / ese", quantity: 1, price: null, icon: "📘" },
+    { title: "Metodologjia e inspektimit arsimor", author: "", category: "studim / ese", quantity: 1, price: null, icon: "📘" },
+
+
+
+
+    
 ];
+
 
 
 
