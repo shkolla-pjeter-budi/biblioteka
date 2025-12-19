@@ -254,7 +254,7 @@ const books = [
     { title: "Gjeniu (botim i plotë)", author: "Teodor Drazjer", category: "biografi", quantity: 1, price: null, icon: "gjeniu_teodor_drajzer.jpg" },
     { title: "Princi i vogël", author: "Antoine de Saint-Exupéry", category: "roman", quantity: 1, price: 700, icon: "princi_i_vogel.jpg" },
     { title: "Lulet e së keqes", author: "Sharl Bodler", category: "poezi", quantity: 3, price: 900, icon: "lulet_e_se_keqes.jpg" },
-    { title: "Gjahtarët e gjirafave", author: "Majn Rid", category: "roman aventurë", quantity: 8, price: 400, icon: "📖" },
+    { title: "Gjahtarët e gjirafave", author: "Majn Rid", category: "roman aventurë", quantity: 8, price: 400, icon: "gjirafa.jfif" },
 
     { title: "L’anello di Clarisse", author: "Claudio Magris", category: "roman", quantity: 1, price: 900, icon: "Lanello_di_Clarisse.jpg" },
     { title: "La luna e i falò", author: "Cesare Pavese", category: "roman", quantity: 1, price: 800, icon: "La_luna_e_i_falò.jpg" },
@@ -395,6 +395,7 @@ const books = [
     { title: "Metodologjia e inspektimit arsimor", author: "", category: "studim / ese", quantity: 1, price: null, icon: "📘" },
 
 ];
+
 
 
 
