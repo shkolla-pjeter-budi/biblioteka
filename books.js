@@ -265,61 +265,62 @@ const books = [
 
     { title: "Pajtimi 1 (7) 1998", author: null, category: "revistë", quantity: 1, price: null, icon: "📘" },
 { title: "Pajtimi 4 (1997)", author: null, category: "revistë", quantity: 1, price: null, icon: "📘" },
-{ title: "Analiza dhe interpretime letrare (modele)", author: null, category: "letërsi", quantity: 1, price: 350, icon: "📘" },
-{ title: "Planifikimi i buxhetit të fondeve të shkollës", author: null, category: "administrim", quantity: 1, price: null, icon: "📘" },
-{ title: "Psikologjia 12 – libër mësuesi", author: null, category: "libër mësuesi", quantity: 1, price: null, icon: "📘" },
+{ title: "Analiza dhe interpretime letrare (modele)", author: null, category: "studim / ese", quantity: 1, price: 350, icon: "📘" },
+{ title: "Planifikimi i buxhetit të fondeve të shkollës", author: null, category: "studim / ese", quantity: 1, price: null, icon: "📘" },
+{ title: "Psikologjia 12 – libër mësuesi", author: null, category: "studim / ese", quantity: 1, price: null, icon: "📘" },
 
-{ title: "Biologjia pjesa II (10–11)", author: null, category: "tekst shkollor", quantity: 2, price: 450, icon: "📘" },
-{ title: "Biologjia (10–11)", author: null, category: "tekst shkollor", quantity: 1, price: 430, icon: "📘" },
-{ title: "Biologjia 10", author: null, category: "tekst shkollor", quantity: 1, price: 270, icon: "📘" },
-{ title: "Biologjia 10", author: null, category: "tekst shkollor", quantity: 1, price: 280, icon: "📘" },
-{ title: "Biologjia 11", author: null, category: "tekst shkollor", quantity: 1, price: 276, icon: "📘" },
-{ title: "Biologjia 11", author: null, category: "tekst shkollor", quantity: 2, price: 270, icon: "📘" },
-{ title: "Biologjia 12", author: null, category: "tekst shkollor", quantity: 2, price: 280, icon: "📘" },
+{ title: "Biologjia pjesa II (10–11)", author: null, category: "studim / ese", quantity: 2, price: 450, icon: "📘" },
+{ title: "Biologjia (10–11)", author: null, category: "studim / ese", quantity: 1, price: 430, icon: "📘" },
+{ title: "Biologjia 10", author: null, category: "studim / ese", quantity: 1, price: 270, icon: "📘" },
+{ title: "Biologjia 10", author: null, category: "studim / ese", quantity: 1, price: 280, icon: "📘" },
+{ title: "Biologjia 11", author: null, category: "studim / ese", quantity: 1, price: 276, icon: "📘" },
+{ title: "Biologjia 11", author: null, category: "studim / ese", quantity: 2, price: 270, icon: "📘" },
+{ title: "Biologjia 12", author: null, category: "studim / ese", quantity: 2, price: 280, icon: "📘" },
 
-{ title: "Kimia 10", author: null, category: "tekst shkollor", quantity: 1, price: 290, icon: "📘" },
-{ title: "Kimia 10", author: null, category: "tekst shkollor", quantity: 1, price: 312, icon: "📘" },
-{ title: "Kimia 10", author: null, category: "tekst shkollor", quantity: 3, price: 300, icon: "📘" },
-{ title: "Kimia 11", author: null, category: "tekst shkollor", quantity: 1, price: 270, icon: "📘" },
-{ title: "Kimia 11", author: null, category: "tekst shkollor", quantity: 5, price: 280, icon: "📘" },
-{ title: "Kimia 11", author: null, category: "tekst shkollor", quantity: 2, price: 260, icon: "📘" },
-{ title: "Kimia 2", author: null, category: "tekst shkollor", quantity: 1, price: 400, icon: "📘" },
+{ title: "Kimia 10", author: null, category: "studim / ese", quantity: 1, price: 290, icon: "📘" },
+{ title: "Kimia 10", author: null, category: "studim / ese", quantity: 1, price: 312, icon: "📘" },
+{ title: "Kimia 10", author: null, category: "studim / ese", quantity: 3, price: 300, icon: "📘" },
+{ title: "Kimia 11", author: null, category: "studim / ese", quantity: 1, price: 270, icon: "📘" },
+{ title: "Kimia 11", author: null, category: "studim / ese", quantity: 5, price: 280, icon: "📘" },
+{ title: "Kimia 11", author: null, category: "studim / ese", quantity: 2, price: 260, icon: "📘" },
+{ title: "Kimia 2", author: null, category: "studim / ese", quantity: 1, price: 400, icon: "📘" },
 
-{ title: "Fizika 11", author: null, category: "tekst shkollor", quantity: 1, price: 280, icon: "📘" },
-{ title: "Fizika 11", author: null, category: "tekst shkollor", quantity: 3, price: 302, icon: "📘" },
-{ title: "Fizika 12", author: null, category: "tekst shkollor", quantity: 1, price: 284, icon: "📘" },
-{ title: "Fizika 10", author: null, category: "tekst shkollor", quantity: 2, price: 305, icon: "📘" },
+{ title: "Fizika 11", author: null, category: "studim / ese", quantity: 1, price: 280, icon: "📘" },
+{ title: "Fizika 11", author: null, category: "studim / ese", quantity: 3, price: 302, icon: "📘" },
+{ title: "Fizika 12", author: null, category: "studim / ese", quantity: 1, price: 284, icon: "📘" },
+{ title: "Fizika 10", author: null, category: "studim / ese", quantity: 2, price: 305, icon: "📘" },
 
-{ title: "Matematikë 3.1", author: null, category: "tekst shkollor", quantity: 1, price: 340, icon: "📘" },
-{ title: "Matematikë 3.2", author: null, category: "tekst shkollor", quantity: 1, price: 115, icon: "📘" },
-{ title: "Matematikë 4.2", author: null, category: "tekst shkollor", quantity: 1, price: 200, icon: "📘" },
+{ title: "Matematikë 3.1", author: null, category: "studim / ese", quantity: 1, price: 340, icon: "📘" },
+{ title: "Matematikë 3.2", author: null, category: "studim / ese", quantity: 1, price: 115, icon: "📘" },
+{ title: "Matematikë 4.2", author: null, category: "studim / ese", quantity: 1, price: 200, icon: "📘" },
 
-{ title: "Histori 10", author: null, category: "tekst shkollor", quantity: 1, price: 185, icon: "📘" },
-{ title: "Historia 11", author: null, category: "tekst shkollor", quantity: 2, price: 356, icon: "📘" },
-{ title: "Historia e shqiptarëve 12", author: null, category: "tekst shkollor", quantity: 1, price: 929, icon: "📘" },
-{ title: "Historia e popullit shqiptar 12", author: null, category: "tekst shkollor", quantity: 1, price: 290, icon: "📘" },
+{ title: "Histori 10", author: null, category: "studim / ese", quantity: 1, price: 185, icon: "📘" },
+{ title: "Historia 11", author: null, category: "studim / ese", quantity: 2, price: 356, icon: "📘" },
+{ title: "Historia e shqiptarëve 12", author: null, category: "studim / ese", quantity: 1, price: 929, icon: "📘" },
+{ title: "Historia e popullit shqiptar 12", author: null, category: "studim / ese", quantity: 1, price: 290, icon: "📘" },
 
-{ title: "Qytetaria 10", author: null, category: "tekst shkollor", quantity: 1, price: 346, icon: "📘" },
-{ title: "Qytetaria 10", author: null, category: "tekst shkollor", quantity: 2, price: 275, icon: "📘" },
-{ title: "Qytetari 11", author: null, category: "tekst shkollor", quantity: 1, price: 150, icon: "📘" },
-{ title: "Qytetari 12", author: null, category: "tekst shkollor", quantity: 1, price: 380, icon: "📘" },
+{ title: "Qytetaria 10", author: null, category: "studim / ese", quantity: 1, price: 346, icon: "📘" },
+{ title: "Qytetaria 10", author: null, category: "studim / ese", quantity: 2, price: 275, icon: "📘" },
+{ title: "Qytetari 11", author: null, category: "studim / ese", quantity: 1, price: 150, icon: "📘" },
+{ title: "Qytetari 12", author: null, category: "studim / ese", quantity: 1, price: 380, icon: "📘" },
 
-{ title: "English for You 4", author: null, category: "gjuhë e huaj", quantity: 2, price: 350, icon: "📘" },
-{ title: "English 4", author: null, category: "gjuhë e huaj", quantity: 3, price: 465, icon: "📘" },
-{ title: "English for You 2", author: null, category: "gjuhë e huaj", quantity: 1, price: 350, icon: "📘" },
+{ title: "English for You 4", author: null, category: "studim / ese", quantity: 2, price: 350, icon: "📘" },
+{ title: "English 4", author: null, category: "studim / ese", quantity: 3, price: 465, icon: "📘" },
+{ title: "English for You 2", author: null, category: "studim / ese", quantity: 1, price: 350, icon: "📘" },
 
-{ title: "Platforma 2", author: null, category: "gjuhë e huaj", quantity: 1, price: null, icon: "📘" },
-{ title: "Platforma 3", author: null, category: "gjuhë e huaj", quantity: 1, price: null, icon: "📘" },
-{ title: "Platforma 4", author: null, category: "gjuhë e huaj", quantity: 1, price: null, icon: "📘" },
+{ title: "Platforma 2", author: null, category: "studim / ese", quantity: 1, price: null, icon: "📘" },
+{ title: "Platforma 3", author: null, category: "studim / ese", quantity: 1, price: null, icon: "📘" },
+{ title: "Platforma 4", author: null, category: "studim / ese", quantity: 1, price: null, icon: "📘" },
 
-{ title: "Atlas i zoologjisë", author: null, category: "atlas", quantity: 1, price: null, icon: "📘" },
-{ title: "Atlas i gjeografisë fizike", author: null, category: "atlas", quantity: 1, price: null, icon: "📘" },
-{ title: "Atlas themelor i historisë së botës", author: null, category: "atlas", quantity: 2, price: null, icon: "📘" },
+{ title: "Atlas i zoologjisë", author: null, category: "enciklopedi", quantity: 1, price: null, icon: "📘" },
+{ title: "Atlas i gjeografisë fizike", author: null, category: "enciklopedi", quantity: 1, price: null, icon: "📘" },
+{ title: "Atlas themelor i historisë së botës", author: null, category: "enciklopedi", quantity: 2, price: null, icon: "📘" },
 
-{ title: "Libër mësuesi – Sociologjia", author: null, category: "libër mësuesi", quantity: 1, price: 300, icon: "📘" }
+{ title: "Libër mësuesi – Sociologjia", author: null, category: "studim / ese", quantity: 1, price: 300, icon: "📘" }
 
 
 ];
+
 
 
 
