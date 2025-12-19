@@ -5,7 +5,7 @@ const books = [
     { title: "Vepra 2-20", author: "Ismail Kadare", category: "roman", quantity: 19, price: 700, icon: "vepra_2_20.jpeg" },
     { title: "Pallati i ëndrrave", author: "Ismail Kadare", category: "roman", quantity: 1, price: 700, icon: "pallati_i_enderrave.jpeg" },
     { title: "Lulet e verës", author: "Naim Frashëri", category: "poezi", quantity: 2, price: 400, icon: "lulet_e_veres.jpeg" },
-    { title: "Naim Frashëri", author: "Dhimitër Shukeriqi", category: "biografi", quantity: 2, price: 4, icon: "📖" },
+    { title: "Naim Frashëri", author: "Dhimitër Shukeriqi", category: "biografi", quantity: 2, price: 4, icon: "naim_frasheri.jpeg" },
     { title: "Këngët e Milosaos", author: "Jeronim de Rada", category: "epikë / klasikë", quantity: 29, price: 200, icon: "kenget_e_milosaos.jpeg" },
     { title: "Poezi të zgjedhura", author: "Naim Frashëri", category: "poezi të zgjedhura", quantity: 3, price: 1.50, icon: "poezi_te_zgjedhura_1.jpeg" },
     { title: "Historia e Skënderbeut", author: "Naim Frashëri", category: "epikë / klasikë", quantity: 19, price: 350, icon: "histori_e_skenderbeut.jpg" },
@@ -96,7 +96,7 @@ const books = [
     { title: "Rob Roi", author: "Valter Skot", category: "roman", quantity: 17, price: 300, icon: "rob_roi.jpeg" },
     { title: "Dhëmbi i Bardhë", author: "Xhek London", category: "roman", quantity: 29, price: 340, icon: "dhembi_i_bardhe.jpeg" },
     { title: "Duaje emrin tënd", author: "Nasi Lera", category: "roman", quantity: 23, price: 300, icon: "duaje_emrin_tend.jpeg" },
-    { title: "Rroke ditën", author: "Sawl Bellow", category: "roman", quantity: 27, price: 420, icon: "📖" },
+    { title: "Rroke ditën", author: "Sawl Bellow", category: "roman", quantity: 27, price: 420, icon: "rroke_diten.jpeg" },
     { title: "Të fshehtat e kimisë", author: "Enciklopedi", category: "enciklopedi", quantity: 5, price: 400, icon: "te_fshehtat_e_kimise.jpeg" },
     { title: "Magjia e sportit", author: "Enciklopedi", category: "enciklopedi", quantity: 7, price: 400, icon: "magjia_e_sportit.jpeg" },
     { title: "Kalorësit e Mesjetës", author: "Enciklopedi", category: "enciklopedi", quantity: 9, price: 320, icon: "kaloresit_e_mesjetes.jpeg" },
@@ -130,9 +130,9 @@ const books = [
     { title: "Gabimi", author: "Antonis Samaraqis", category: "roman", quantity: 1, price: 5, icon: "gabimi.jpeg" },
     { title: "Procesi", author: "Franz Kafka", category: "roman", quantity: 1, price: 790, icon: "procesi.jpeg" },
     { title: "Ishuj në qiell", author: "Artur Klark", category: "roman", quantity: 1, price: 6, icon: "Ishuj_ne_Qiell.jpeg" },
-    { title: "Net të Bardha", author: "Fjodor Dotskojevski", category: "novela / tregime", quantity: 1, price: 500, icon: "net_te_bardha.jpeg" },
+    { title: "Net të Bardha", author: "Fjodor Dostojevski", category: "novela / tregime", quantity: 1, price: 500, icon: "net_te_bardha.jpeg" },
     { title: "Mizantropi", author: "Molier", category: "drama", quantity: 1, price: 500, icon: "mizantropi.jpeg" },
-    { title: "Vilhem Teli", author: "Frederik Shiler", category: "drama", quantity: 1, price: 800, icon: "vilhem_teli.jpeg" },
+    { title: "Vilhelm Teli", author: "Frederik Shiler", category: "drama", quantity: 1, price: 800, icon: "vilhem_teli.jpeg" },
     { title: "Epi i Gilameshit", author: "Anton Berisha", category: "epikë / klasikë", quantity: 1, price: 600, icon: "Epi_i_Gilameshit.jpeg" },
     { title: "Loja", author: "Teodor Keko", category: "roman", quantity: 1, price: 5.50, icon: "📖" },
     { title: "Vite mbi supe", author: "Kiço Blushi", category: "studim / ese", quantity: 1, price: 7, icon: "vite_mbi_supe.webp" },
@@ -191,7 +191,7 @@ const books = [
 
     { title: "La storia d’Italia", author: "De Agostini Ragazzi", category: "histori", quantity: 1, price: 3900, icon: "la_storia_ditalia.jpeg" },
     { title: "L’arte Italiana", author: "Gloria Fosi", category: "histori", quantity: 2, price: 4800, icon: "Larte_Italiana.webp" },
-    { title: "Celebrate", author: "", category: "studim / ese", quantity: 1, price: null, icon: "📖" },
+    { title: "Celebrate", author: "", category: "studim / ese", quantity: 1, price: null, icon: "celebrate.jpeg" },
     { title: "Le Regioni d’Italia", author: "", category: "histori", quantity: 1, price: null, icon: "le_regioni_ditalia.jpeg" },
     { title: "Regioni d’Italia", author: "", category: "histori", quantity: 1, price: 1650, icon: "regioni_ditalia.jpeg" },
     { title: "Fjalori i shqipes së sotme", author: "", category: "enciklopedi", quantity: 1, price: 6000, icon: "fjalor_i_shqipes_se_sotme.jpeg" },
@@ -230,6 +230,7 @@ const books = [
     { title: "The Haymedow", author: "Gary Paulsen", category: "roman", quantity: 1, price: 599, icon: "The_Haymeadow.jpg" },
     { title: "Il giardino dei Finizi-Contini", author: "Giorgio Bossani", category: "roman", quantity: 1, price: 680, icon: "Il_giardino_dei_Finizi_Contini.jpg" }
 ];
+
 
 
 
