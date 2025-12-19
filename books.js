@@ -308,16 +308,12 @@ const books = [
     { title: "English 4", author: "", category: "studim / ese", quantity: 3, price: 465, icon: "📘" },
     { title: "English for You 2", author: "", category: "studim / ese", quantity: 1, price: 350, icon: "📘" },
 
-    { title: "Platforma 2", author: "", category: "studim / ese", quantity: 1, price: null, icon: "📘" },
-    { title: "Platforma 3", author: "", category: "studim / ese", quantity: 1, price: null, icon: "📘" },
-    { title: "Platforma 4", author: "", category: "studim / ese", quantity: 1, price: null, icon: "📘" },
-
     { title: "Atlas i zoologjisë", author: "", category: "enciklopedi", quantity: 1, price: null, icon: "📘" },
     { title: "Atlas i gjeografisë fizike", author: "", category: "enciklopedi", quantity: 1, price: null, icon: "📘" },
     { title: "Atlas themelor i historisë së botës", author: "", category: "enciklopedi", quantity: 2, price: null, icon: "📘" },
-
     { title: "Libër mësuesi – Sociologjia", author: "", category: "studim / ese", quantity: 1, price: 300, icon: "📘" }
 ];
+
 
 
 
