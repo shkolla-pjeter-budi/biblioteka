@@ -75,7 +75,7 @@ const books = [
     { title: "Politika dhe demokracia", author: "Kval-Mellbye-Tranoy", category: "studim / ese", quantity: 3, price: null, icon: "politika_dhe_demokracia.jpeg" },
     { title: "E bardhë, e brishtë, si kristal", author: "Thanas Jorgji", category: "roman", quantity: 15, price: 600, icon: "e_bardhe_e_brishte.jpeg" },
     { title: "Poezi të zgjedhura", author: "33 poete franceze", category: "antologji", quantity: 27, price: 400, icon: "33_poete_franceze.jpeg" },
-    { title: "Dramat në prozë", author: "Fidrih Shiler", category: "drama", quantity: 25, price: 540, icon: "dramat_ne_proze.jpeg" },
+    { title: "Dramat në prozë", author: "Fridrih Shiler", category: "drama", quantity: 25, price: 540, icon: "dramat_ne_proze.jpeg" },
     { title: "Tregtari i Venedikut", author: "Shekspir", category: "drama", quantity: 32, price: 440, icon: "tregtari_i_venedikut.jpg" },
     { title: "Lulet e mollës", author: "John Galsworthy", category: "roman", quantity: 5, price: 300, icon: "lulet_e_molles.jpeg" },
     { title: "Njerëzit e mjegullës", author: "Henri Haggard", category: "roman", quantity: 5, price: 350, icon: "njerezit_e_mjegulles.jpeg" },
@@ -141,7 +141,7 @@ const books = [
     { title: "Katedralja e Parisit", author: "Viktor Hygo", category: "roman", quantity: 1, price: 1200, icon: "Katedralja_e_Parisit.jpeg" },
     { title: "Eugjen Onjegini", author: "A.S Pushkin", category: "roman", quantity: 1, price: 500, icon: "Eugjen_Onjegini.jpeg" },
     { title: "14 novela", author: "Anton Çehov", category: "novela / tregime", quantity: 1, price: 700, icon: "14_novela.jpg" },
-    { title: "Jul Çezari", author: "Uilliam Shakespeare", category: "drama", quantity: 3, price: 550, icon: "jul-cezari-uiliam-shekspir.jpg" },
+    { title: "Jul Çezari", author: "Shekspir", category: "drama", quantity: 3, price: 550, icon: "jul-cezari-uiliam-shekspir.jpg" },
     { title: "Pranvera e Pragës", author: "Jani Guxo", category: "histori", quantity: 2, price: 600, icon: "pranvera_e_prages.jpeg" },
     { title: "Pse", author: "Sterjo Spasse", category: "roman", quantity: 2, price: 450, icon: "pse.jpg" },
     { title: "Zbulimet e Sherlock Holmesit", author: "Arthur Doyle", category: "novela / tregime", quantity: 3, price: 300, icon: "Zbulimet_e_Sherlock_Holmesit.jpg" },
@@ -395,6 +395,7 @@ const books = [
     { title: "Metodologjia e inspektimit arsimor", author: "", category: "studim / ese", quantity: 1, price: null, icon: "📘" },
 
 ];
+
 
 
 
