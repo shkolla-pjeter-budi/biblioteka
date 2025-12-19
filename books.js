@@ -35,7 +35,7 @@ const books = [
     { title: "Mëngjesi i së nesërmes", author: "Adem Istrefi", category: "roman", quantity: 1, price: 210, icon: "mengjesi_i_se_nesermes.jpeg" },
     { title: "Zhvarrosja e një dashurie", author: "Virgjil Muçi", category: "roman", quantity: 1, price: 3.50, icon: "zhvarrosja_e_nje_dashurie.jpeg" },
     { title: "E pakryer", author: "Preç Zogaj", category: "poezi", quantity: 1, price: 3, icon: "e_pakryer.jpeg" },
-    { title: "Poezia Shqipe", author: "Ali Asllani", category: "poezi", quantity: 1, price: 2, icon: "📖" },
+    { title: "Poezia Shqipe", author: "Ali Asllani", category: "poezi", quantity: 1, price: 2, icon: "poezi_te_zgjedhura_3.jpg" },
     { title: "Buka e një stine me borë ", author: "Koço Kosta", category: "roman", quantity: 1, price: 6.50, icon: "buka_E_nje_stine_me_bore.jpeg" },
     { title: "Zani i Naltë", author: "Revistë shkencore,kulturore", category: "revistë", quantity: 1, price: 300, icon: "zani_i_nalte.jpeg" },
     { title: "Te dheu i huaj", author: "Zef Sikroi", category: "roman", quantity: 2, price: 450, icon: "te_dheu_i_huaj.jpeg" },
@@ -70,20 +70,19 @@ const books = [
     { title: "Euripidi ne prozë", author: "Janis Benekos", category: "epikë / klasikë", quantity: 31, price: 250, icon: "euripidi_ne_proze.jpeg" },
 
     { title: "Zemra", author: "Edmond de Amicis", category: "roman", quantity: 27, price: 250, icon: "zemra.jpeg" },
-    { title: "Iliada", author: "Homeri", category: "epikë / klasikë", quantity: 1, price: 2000, icon: "iliada.jpeg" },
-    { title: "Xhorxh Gordon Bajron", author: "Corld Klaroldi", category: "biografi", quantity: 2, price: 800, icon: "📖" },
+    { title: "Iliada", author: "Homeri", category: "epikë / klasikë", quantity: 2, price: 2000, icon: "iliada.jpeg" },
+    { title: "Çajld Haroldi", author: "Xhorxh Gordon Bajron", category: "poezi", quantity: 2, price: 800, icon: "xhorxh_gordn.jpg" },
     { title: "Politika dhe demokracia", author: "Kval-Mellbye-Tranoy", category: "studim / ese", quantity: 3, price: null, icon: "politika_dhe_demokracia.jpeg" },
     { title: "E bardhë, e brishtë, si kristal", author: "Thanas Jorgji", category: "roman", quantity: 15, price: 600, icon: "e_bardhe_e_brishte.jpeg" },
     { title: "Poezi të zgjedhura", author: "33 poete franceze", category: "antologji", quantity: 27, price: 400, icon: "33_poete_franceze.jpeg" },
     { title: "Dramat në prozë", author: "Fidrih Shiler", category: "drama", quantity: 25, price: 540, icon: "dramat_ne_proze.jpeg" },
     { title: "Tregtari i Venedikut", author: "Shekspir", category: "drama", quantity: 32, price: 440, icon: "tregtari_i_venedikut.jpg" },
-    { title: "Lulet e mollës", author: "John Galsëorthy", category: "roman", quantity: 5, price: 300, icon: "lulet_e_molles.jpeg" },
+    { title: "Lulet e mollës", author: "John Galsworthy", category: "roman", quantity: 5, price: 300, icon: "lulet_e_molles.jpeg" },
     { title: "Njerëzit e mjegullës", author: "Henri Haggard", category: "roman", quantity: 5, price: 350, icon: "njerezit_e_mjegulles.jpeg" },
     { title: "Rikardi II", author: "Shekspir", category: "drama", quantity: 34, price: 550, icon: "rikardi_II.jpeg" },
     { title: "Thesaret e mbretit Solomon", author: "Henri Haggard", category: "roman", quantity: 22, price: 600, icon: "Thesaret_e_mbretit_Solomon.jpeg" },
     { title: "Viti I vdekjes së Rikardi Reisit", author: "Jose Soramango", category: "roman", quantity: 28, price: 690, icon: "Viti_I_vdekjes_se_Rikardi_Reisit.jpeg" },
-    { title: "Gjenerali në labirintin e vet", author: "Marquez", category: "roman", quantity: 2, price: 600, icon: "gjenerali_ne_labirintin_e_tij.jpeg" },
-    { title: "Poezi", author: "Borhes", category: "poezi", quantity: 27, price: 500, icon: "📖" },
+    { title: "Poezi", author: "Borges", category: "poezi", quantity: 27, price: 500, icon: "borhes.jfif" },
     { title: "Poezi të zgjedhura", author: "Arthur Rimbaud", category: "poezi të zgjedhura", quantity: 30, price: 230, icon: "poezi_te_zgjedhura_4.jpeg" },
     { title: "David Koperfild", author: "Çarles Dickens", category: "roman", quantity: 5, price: 450, icon: "david_koperfildi.jpeg" },
     { title: "Këngë", author: "Xhakomo Leopardi", category: "poezi", quantity: 1, price: 900, icon: "kenge.jpeg" },
@@ -114,7 +113,7 @@ const books = [
     { title: "Historia e arsimit", author: "", category: "histori", quantity: 1, price: null, icon: "historia_e_arsimit.jpeg" },
     { title: "Revistë pedagogjike", author: "Fabrice Herviou-Wane", category: "revistë", quantity: 1, price: 1000, icon: "reviste_pedagogjike.jpeg" },
     { title: "Guidë për Maturën Shtetërore", author: "Ministria e Arsimit", category: "studim / ese", quantity: 1, price: null, icon: "guide_per_maturen_shteterore.jpeg" },
-    { title: "Science", author: "Adison Wesley", category: "studim / ese", quantity: 1, price: null, icon: "📖" },
+    { title: "Science", author: "Adison Wesley", category: "studim / ese", quantity: 1, price: null, icon: "science.jfif" },
     { title: "Portofol", author: "-", category: "studim / ese", quantity: 2, price: 500, icon: "portofol.jpeg" },
     { title: "Njohuri për biznesin", author: "Junior Achivement", category: "studim / ese", quantity: 21, price: 200, icon: "njohuri_per_biznesin.jpeg" },
     { title: "Platform 4", author: "Kate Leight", category: "studim / ese", quantity: 1, price: 453, icon: "platform_4.jpeg" },
@@ -123,7 +122,7 @@ const books = [
     { title: "Focus 4", author: "Daniel Broyshow", category: "studim / ese", quantity: 4, price: 455, icon: "focus_4.jpeg" },
     { title: "L’italiano per stanieri 1, 2", author: "Bonacci editore", category: "studim / ese", quantity: 4, price: null, icon: "📖" },
     { title: "Shoqërite e nxënësve", author: "JA", category: "studim / ese", quantity: 1, price: 160, icon: "shoqerite_e_nxenesve.jpeg" },
-    { title: "Mësuesi", author: "Xhon Duji", category: "studim / ese", quantity: 1, price: 100, icon: "📖" },
+    { title: "Mësuesi", author: "Xhon Djui", category: "studim / ese", quantity: 1, price: 100, icon: "📖" },
     { title: "Platform 2", author: "Kate Leigh", category: "studim / ese", quantity: 1, price: null, icon: "platform_2.jpeg" },
     { title: "Emira", author: "Anton Santori", category: "roman", quantity: 1, price: 800, icon: "emira.jpeg" },
     { title: "Tre mjeshtër", author: "Stefan Cvajg", category: "studim / ese", quantity: 1, price: 1000, icon: "Tre_mjeshter.jpeg" },
@@ -134,7 +133,7 @@ const books = [
     { title: "Mizantropi", author: "Molier", category: "drama", quantity: 1, price: 500, icon: "mizantropi.jpeg" },
     { title: "Vilhelm Teli", author: "Frederik Shiler", category: "drama", quantity: 1, price: 800, icon: "vilhem_teli.jpeg" },
     { title: "Epi i Gilameshit", author: "Anton Berisha", category: "epikë / klasikë", quantity: 1, price: 600, icon: "Epi_i_Gilameshit.jpeg" },
-    { title: "Loja", author: "Teodor Keko", category: "roman", quantity: 1, price: 5.50, icon: "📖" },
+    { title: "Loja", author: "Teodor Keko", category: "roman", quantity: 1, price: 5.50, icon: "loja.jfif" },
     { title: "Vite mbi supe", author: "Kiço Blushi", category: "studim / ese", quantity: 1, price: 7, icon: "vite_mbi_supe.webp" },
     { title: "Romeo dhe Zhulieta", author: "Shekspir", category: "drama", quantity: 1, price: 500, icon: "Romeo_dhe_Zhulieta.jpeg" },
     { title: "Lufta e Trojës", author: "Kujtim Ymeri", category: "epikë / klasikë", quantity: 1, price: 400, icon: "Lufta_e_Trojes.jpeg" },
@@ -218,7 +217,7 @@ const books = [
     { title: "Il deserto dei Tartari", author: "Dino Buzzati", category: "roman", quantity: 1, price: 680, icon: "Il_deserto_dei_Tartari.jpg" },
     { title: "Voci", author: "Dacia Maraini", category: "roman", quantity: 1, price: 723, icon: "voci.jpg" },
     { title: "L’avventura di un povero crocatio", author: "Franco Cardni", category: "roman", quantity: 1, price: 740, icon: "Lavventura_di_un_povero_crocatio.jpg" },
-    { title: "Puerto escondido", author: "Pino Caucci", category: "roman", quantity: 1, price: 740, icon: "📖" },
+    { title: "Puerto escondido", author: "Pino Caucci", category: "roman", quantity: 1, price: 740, icon: "puerto.jfif" },
     { title: "La boutique del mistero", author: "Dino Buzzati", category: "novela / tregime", quantity: 1, price: 680, icon: "La_boutique_del_mistero.jpg" },
     { title: "City", author: "Alessandro Baricco", category: "roman", quantity: 1, price: 800, icon: "city.jpg" },
     { title: "Palomar", author: "Etalo Calvino", category: "roman", quantity: 1, price: 740, icon: "palomar.webp" },
@@ -325,7 +324,6 @@ const books = [
     { title: "Tell Me More – Education Online", author: "", category: "studim / ese", quantity: 9, price: 2900, icon: "📘" },
     { title: "Poezi dhe poemë", author: "", category: "poezi", quantity: 1, price: 800, icon: "📖" },
     { title: "Antologji e mendimit shqiptar", author: "", category: "studim / ese", quantity: 2, price: 1500, icon: "📘" },
-    { title: "Brenga e Ballkanit", author: "", category: "studim / ese", quantity: 1, price: 1000, icon: "📖" },
     { title: "Enciklopedi e mendimit shqiptar", author: "", category: "enciklopedi", quantity: 6, price: 1500, icon: "📘" },
     { title: "Tell Me More – Education Online Kl. VI", author: "", category: "studim / ese", quantity: 1, price: 2900, icon: "📘" },
 
@@ -396,11 +394,8 @@ const books = [
     { title: "Raporte matura shtetërore 2007", author: "", category: "studim / ese", quantity: 1, price: null, icon: "📘" },
     { title: "Metodologjia e inspektimit arsimor", author: "", category: "studim / ese", quantity: 1, price: null, icon: "📘" },
 
-
-
-
-    
 ];
+
 
 
 
