@@ -103,7 +103,7 @@ const books = [
     { title: "Fjalë prej zjarri Kosovë", author: "Poetë nga Kosova", category: "poezi", quantity: 28, price: 500, icon: "Fjale_prej_zjarri_Kosove.jpg" },
     { title: "Tartarini i Toroskonit", author: "Alfons Dode", category: "roman", quantity: 17, price: 300, icon: "tartarini_i_toroskonit.jpeg" },
     { title: "Ferrparajsa", author: "Xhevahir Spahiu", category: "poezi", quantity: 26, price: 300, icon: "Ferrparajsa.jpeg" },
-    { title: "Ideologjia e vërtetë e Sokratit", author: "Kostas Varnals", category: "studim / ese", quantity: 26, price: 290, icon: "Ideologjia_e_vertete_e_sokratit.jpg" },
+    { title: "Apologjia e vërtetë e Sokratit", author: "Kostas Varnals", category: "studim / ese", quantity: 26, price: 290, icon: "Ideologjia_e_vertete_e_sokratit.jpg" },
     { title: "Befasitë e matematikës", author: "Enciklopedi", category: "enciklopedi", quantity: 36, price: 400, icon: "befasite_e_matematikes.jpeg" },
     { title: "Enciklopedi e mendimit", author: "Ndricim Kulla", category: "studim / ese", quantity: 2, price: 1800, icon: "Enciklopedi_e_mendimit.jpeg" },
     { title: "Të fshehtat e kimisë", author: "", category: "enciklopedi", quantity: 5, price: 400, icon: "te_fshehtat_e_kimise.jpeg" },
@@ -199,7 +199,7 @@ const books = [
     { title: "Cristo si e fermato a Eboli", author: "Carlo Levi", category: "roman", quantity: 1, price: 800, icon: "Cristo_si_e_fermato_a_Eboli.jpg" },
     { title: "La Donna delle Meraviglie", author: "Alberto Bevilacqua", category: "roman", quantity: 1, price: 740, icon: "La_Donna_delle_Meraviglie.jpg" },
     { title: "Se questo e un uomo la tregua", author: "Primo Levi", category: "histori", quantity: 1, price: 900, icon: "Levi-Primo_Se-questo-è-un-uomo.jpg" },
-    { title: "La spiagga", author: "Cesare Pavese", category: "roman", quantity: 1, price: 723, icon: "spiaga.jpeg" },
+    { title: "La spiaggia", author: "Cesare Pavese", category: "roman", quantity: 1, price: 723, icon: "spiaga.jpeg" },
     { title: "Cioccolata da Hanselmann", author: "Rosetta Loy", category: "roman", quantity: 1, price: 776, icon: "Cioccolata_da_Hanselmann.jpg" },
     { title: "Biografia del figlio combiato", author: "Andrea Camilleri", category: "roman", quantity: 1, price: 826, icon: "Biografia_del_figlio_combiato.jpg" },
     { title: "L’isola di Arturi", author: "Elsa Morante", category: "roman", quantity: 1, price: 878, icon: "Lisola_di_Artur.jpg" },
@@ -393,8 +393,35 @@ const books = [
     { title: "Arsimi i lartë në Shqipëri 2011", author: "", category: "studim / ese", quantity: 2, price: null, icon: "📘" },
     { title: "Raporte matura shtetërore 2007", author: "", category: "studim / ese", quantity: 1, price: null, icon: "📘" },
     { title: "Metodologjia e inspektimit arsimor", author: "", category: "studim / ese", quantity: 1, price: null, icon: "📘" },
+    { title: "Trëndafila me gjemba", author: "", category: "", quantity: 3, price: 250, icon: "📘" },
+    { title: "Më quajnë Musine Kokalari", author: " Persida Asllani", category: "biografi", quantity: 1, price: 600, icon: "musine.jfif" },
+    { title: "Fabulat e Ezopit", author: "Ezopi", category: "novela / tregime", quantity: 1, price: 420, icon: "fabulat_ezopit.jpg" },
+
+    
+    { title: "Fëmijët nuk duan psikolog, duan prindër!", author: "", category: "studim / ese", quantity: 2, price: 600, icon: "📘" },
+
+    { title: "3000 Solved Problems in Physics", author: "", category: "studim / ese", quantity: 1, price: 2800, icon: "📘" },
+    { title: "Essential Principles of Physics (2nd ed.)", author: "", category: "studim / ese", quantity: 1, price: null, icon: "📘" },
+
+    { title: "Never a Worm This Long", author: "", category: "novela / tregime", quantity: 1, price: null, icon: "never_a_worm_this_long.jpg" },
+    { title: "Treasury of Literature – Emerald Forest", author: "", category: "antologji", quantity: 1, price: null, icon: "📖" },
+    { title: "Treasury of Literature – All Kinds of Friends", author: "", category: "antologji", quantity: 1, price: null, icon: "📖" },
+
+    { title: "Il nostro mondo – Natura d’Italia", author: "", category: "studim / ese", quantity: 1, price: 1800, icon: "📘" },
+    { title: "Atlante storico De Agostini", author: "", category: "enciklopedi", quantity: 1, price: 3400, icon: "📘" },
+    { title: "Atlante geografico metodico De Agostini (2007–2008)", author: "", category: "enciklopedi", quantity: 4, price: 4000, icon: "📘" },
+    
+
+    { title: "College Physics – One", author: "", category: "studim / ese", quantity: 1, price: null, icon: "📘" },
+    { title: "College Physics – Two", author: "", category: "studim / ese", quantity: 1, price: null, icon: "📘" },
+    { title: "College Physics – Three", author: "", category: "studim / ese", quantity: 1, price: null, icon: "📘" },
+    { title: "Lo zingarelli minore", author: "", category: "enciklopedi", quantity: 2, price: "22.5 euro", icon: "📘" },
+    { title: "Didattica dell’italiano a stranieri", author: "", category: "studim / ese", quantity: 1, price: null, icon: "📘" },
+    { title: "Senza Ire Toscana", author: "", category: "studim / ese", quantity: 1, price: null, icon: "📘" }
+
 
 ];
+
 
 
 
