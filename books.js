@@ -396,29 +396,25 @@ const books = [
     { title: "Trëndafila me gjemba", author: "", category: "", quantity: 3, price: 250, icon: "📘" },
     { title: "Më quajnë Musine Kokalari", author: " Persida Asllani", category: "biografi", quantity: 1, price: 600, icon: "musine.jfif" },
     { title: "Fabulat e Ezopit", author: "Ezopi", category: "novela / tregime", quantity: 1, price: 420, icon: "fabulat_ezopit.jpg" },
-
-    
     { title: "Fëmijët nuk duan psikolog, duan prindër!", author: "", category: "studim / ese", quantity: 2, price: 600, icon: "📘" },
-
     { title: "3000 Solved Problems in Physics", author: "", category: "studim / ese", quantity: 1, price: 2800, icon: "📘" },
     { title: "Essential Principles of Physics (2nd ed.)", author: "", category: "studim / ese", quantity: 1, price: null, icon: "📘" },
-
     { title: "Never a Worm This Long", author: "", category: "novela / tregime", quantity: 1, price: null, icon: "never_a_worm_this_long.jpg" },
     { title: "Treasury of Literature – Emerald Forest", author: "", category: "antologji", quantity: 1, price: null, icon: "📖" },
     { title: "Treasury of Literature – All Kinds of Friends", author: "", category: "antologji", quantity: 1, price: null, icon: "📖" },
-
     { title: "Il nostro mondo – Natura d’Italia", author: "", category: "studim / ese", quantity: 1, price: 1800, icon: "📘" },
     { title: "Atlante storico De Agostini", author: "", category: "enciklopedi", quantity: 1, price: 3400, icon: "📘" },
     { title: "Atlante geografico metodico De Agostini (2007–2008)", author: "", category: "enciklopedi", quantity: 4, price: 4000, icon: "📘" },
-    
-
     { title: "College Physics – One", author: "", category: "studim / ese", quantity: 1, price: null, icon: "📘" },
     { title: "College Physics – Two", author: "", category: "studim / ese", quantity: 1, price: null, icon: "📘" },
     { title: "College Physics – Three", author: "", category: "studim / ese", quantity: 1, price: null, icon: "📘" },
     { title: "Lo zingarelli minore", author: "", category: "enciklopedi", quantity: 2, price: "22.5 euro", icon: "📘" },
     { title: "Didattica dell’italiano a stranieri", author: "", category: "studim / ese", quantity: 1, price: null, icon: "📘" },
     { title: "Senza Ire Toscana", author: "", category: "studim / ese", quantity: 1, price: null, icon: "📘" }
+
+    
 ];
+
 
 
 
