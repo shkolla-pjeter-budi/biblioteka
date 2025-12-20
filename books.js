@@ -418,9 +418,8 @@ const books = [
     { title: "Lo zingarelli minore", author: "", category: "enciklopedi", quantity: 2, price: "22.5 euro", icon: "📘" },
     { title: "Didattica dell’italiano a stranieri", author: "", category: "studim / ese", quantity: 1, price: null, icon: "📘" },
     { title: "Senza Ire Toscana", author: "", category: "studim / ese", quantity: 1, price: null, icon: "📘" }
-
-
 ];
+
 
 
 
