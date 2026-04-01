@@ -410,7 +410,7 @@ const books = [
     { title: "College Physics – Three", author: "", category: "studim / ese", quantity: 1, price: null, icon: "📘" },
     { title: "Lo zingarelli minore", author: "", category: "enciklopedi", quantity: 2, price: "22.5 euro", icon: "📘" },
     { title: "Didattica dell’italiano a stranieri", author: "", category: "studim / ese", quantity: 1, price: null, icon: "📘" },
-    { title: "Senza Ire Toscana", author: "", category: "studim / ese", quantity: 1, price: null, icon: "📘" }
+    { title: "Senza Ire Toscana", author: "", category: "studim / ese", quantity: 1, price: null, icon: "📘" },
     { title: "Origjina e derës arbërore të Kastriotëve", author: "Mëhill Elezi", category: "studim / ese",quantity: 1, price: "2000", icon: "mehillelezi.jpeg" } 
     
 ];
